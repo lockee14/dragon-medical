@@ -1,13 +1,13 @@
 For our great AIS frontend we need an epic backend. From the frontend we want to log into our system, log out and manage data about doctors.
 A basis already exists and will be developed further. It contains an executable server with connection to a MongoDB database.
 To make it a little easier for you, we have created 3 subtasks:
-Task part a)
+Task part a) >> done
 This task is very important. Without it, it is not possible to manage the doctors for our new AIS.
 To exchange physician data between the client and the server we need an API with which man:
-1. write data records,
-2. read a single record,
-3. read all records,
-4. delete one or more records,
+1. write data records, >> done
+2. read a single record, >> done
+3. read all records, >> done
+4. delete one or more records, >> done
 A physician should be able to contain the following data:
 ● Name
 ● First name
@@ -23,12 +23,12 @@ An example for the API is already implemented: Item 3 from this task part. The c
 }
 The other parts are still missing. And here you come into play. 
  
-Task part b)
+Task part b) >> done
 We want only logged in users to have access to the functions from task part a and therefore need functions for
 ● Login
 ● Logout
 You can also map this using the RPC-API.
-Task part c)
+Task part c) >> done
 We want the entire application to be as scalable as possible and need a cool idea for that. Scalable means: It must be conceptually possible to send huge amounts of requests simultaneously to the server without receiving a DoS.
 A working prototype containing your DragonMedical with an explanation (if necessary) how it should work would be really great!
 
